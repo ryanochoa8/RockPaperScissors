@@ -11,21 +11,23 @@
 
 <body>
 	<!--write html below this line-->
-	<div class="container text-center border border-dark py-3">
-		<div class="row">
+	<div class="container text-center border border-dark py-3 bg-light">
+		<div class="row bg">
 			<div class="col">
 				<h1>RPS vs CPU</h1>
 				<h4>Choose one!</h4>
-				<button class="btn btn-outline-dark" onclick="play('rock')">Rock</button>
-				<button class="btn btn-outline-info text-dark" onclick="play('paper')">Paper</button>
-				<button class="btn btn-outline-secondary" onclick="play('scissors')">Scissors</button>
+				<button class="btn btn-outline-dark" onclick="play('ROCK')">Rock</button>
+				<button class="btn btn-outline-info" onclick="play('PAPER')">Paper</button>
+				<button class="btn btn-outline-secondary" onclick="play('SCISSORS')">Scissors</button>
 				<h3> Player 1 played: <span id="player-rps"></span></h3>
 				<h3> Computer played: <span id="computer-rps"></span></h3>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col text-center">
-				<h3>Game Result: <span id="game-result"></span></h3>
+				<h3>
+					<span id="game-result"></span>
+				</h3>
 			</div>
 		</div>
 	</div>
