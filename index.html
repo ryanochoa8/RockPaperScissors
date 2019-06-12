@@ -4,12 +4,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>RockPaperScissors</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!--Might be good to link bootstrap here-->
 </head>
 
 <body>
 	<!--write html below this line-->
-
+	<div class="container">
+		<div class="row text-center">
+			<div class="col border border-dark py-3">
+				<h1>RPS vs CPU</h1>
+				<h4>Choose one!</h4>
+				<button class="btn btn-outline-dark" onclick="play('rock')">Rock</button>
+				<button class="btn btn-outline-info text-dark" onclick="play('paper')">Paper</button>
+				<button class="btn btn-outline-secondary" onclick="play('scissors')">Scissors</button>
+			</div>
+		</div>
+	</div>
 
 	<!--write html above this line-->
 	<!--the following line is used to link your javascript file.-->
